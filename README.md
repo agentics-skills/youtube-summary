@@ -1,13 +1,13 @@
 # youtube-summary
 
-`youtube-summary` is an Opencode skill for generating clean, structured summaries of YouTube videos. The repository ships the skill definition together with a small Rust CLI that fetches video metadata and transcript data used by the skill.
+`youtube-summary` is a reusable agent skill for generating clean, structured summaries of YouTube videos. The repository ships the skill definition together with a small Rust CLI that fetches video metadata and transcript data used by the skill.
 
 ## Installation
 
 ### macOS (Apple Silicon)
 
 ```shell
-cd .opencode/skills
+cd .agents/skills
 mkdir youtube-summary
 cd youtube-summary
 curl -L -o SKILL.md https://github.com/agentics-skills/youtube-summary/releases/latest/download/SKILL.md
@@ -19,7 +19,7 @@ xattr -d com.apple.quarantine youtube-transcript-aarch64-apple-darwin || true
 ### macOS (Intel)
 
 ```shell
-cd .opencode/skills
+cd .agents/skills
 mkdir youtube-summary
 cd youtube-summary
 curl -L -o SKILL.md https://github.com/agentics-skills/youtube-summary/releases/latest/download/SKILL.md
@@ -31,7 +31,7 @@ xattr -d com.apple.quarantine youtube-transcript-x86_64-apple-darwin || true
 ### Linux (x86_64 musl)
 
 ```shell
-cd .opencode/skills
+cd .agents/skills
 mkdir youtube-summary
 cd youtube-summary
 curl -L -o SKILL.md https://github.com/agentics-skills/youtube-summary/releases/latest/download/SKILL.md
@@ -42,7 +42,7 @@ chmod +x youtube-transcript-x86_64-unknown-linux-musl
 ### Windows (x86_64)
 
 ```shell
-cd .opencode/skills
+cd .agents/skills
 mkdir youtube-summary
 cd youtube-summary
 curl -L -o SKILL.md https://github.com/agentics-skills/youtube-summary/releases/latest/download/SKILL.md

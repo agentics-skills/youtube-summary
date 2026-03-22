@@ -2,10 +2,6 @@
 name: youtube-summary
 description: Create summaries for YouTube (If the user provides a YouTube URL and asks for a summary or just posted YouTube URL)
 license: MIT
-compatibility: opencode
-metadata:
-  audience: creators
-  workflow: writing
 ---
 
 # YouTube summary
